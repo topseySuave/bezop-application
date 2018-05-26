@@ -91,11 +91,17 @@ const LoginPage = () => {
                 fullWidth={true}
                 type="password"
               />
+              <TextField
+                hintText="Confirm password"
+                floatingLabelText="Confirm password"
+                fullWidth={true}
+                type="password"
+              />
 
               <div>
 
                 <Link to="/">
-                  <RaisedButton label="Login"
+                  <RaisedButton label="Register"
                                 primary={true}
                                 style={styles.loginBtn}/>
                 </Link>
@@ -105,9 +111,9 @@ const LoginPage = () => {
 
           <div style={styles.buttonsDiv}>
             <FlatButton
-              label="Register"
-              containerElement={<Link to='/register' />}
+              label="login"
               style={styles.flatButton}
+              containerElement={<Link to='/login' />}
               icon={<PersonAdd />}
             />
           </div>

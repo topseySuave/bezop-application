@@ -49,7 +49,7 @@ class App extends React.Component {
 
             <LeftDrawer navDrawerOpen={navDrawerOpen}
                         menus={Data.menus}
-                        username="User Admin"/>
+                        username="Daniel Micah"/>
 
             <div style={styles.container}>
               {this.props.children}
